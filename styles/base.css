@@ -1,0 +1,18 @@
+:root {
+	--clr1: #606060;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	color: var(--clr1);
+	font-family: Lato, serif;
+	line-height: 1.25;
+}
+
+body {
+	margin: 0;
+	font-size: 1rem;
+}
