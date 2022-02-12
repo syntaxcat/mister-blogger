@@ -3,10 +3,15 @@
 	--clr2: #58c93a;
 	--clr3: #1e1e1e;
 	--clr4: #292929;
+	--clr5: #4f4e4e;
+	--clr6: #c2c1c1;
+	--clr7: #c2c2c2;
+	--clr8: #e1e0e0;
 }
 
 * {
 	box-sizing: border-box;
+	margin: 0;
 }
 
 html {
@@ -16,6 +21,5 @@ html {
 }
 
 body {
-	margin: 0;
 	font-size: 1rem;
 }

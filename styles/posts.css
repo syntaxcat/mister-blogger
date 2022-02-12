@@ -1,0 +1,64 @@
+main .container {
+	border: 1px solid var(--clr8);
+}
+
+.post {
+	display: flex;
+	gap: 2.5rem;
+	padding-top: 5rem;
+}
+
+.post:last-of-type {
+	padding-bottom: 5rem;
+}
+
+.post-content {
+	padding-right: 1.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.post-content h2 {
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	font-size: 1.75rem;
+	color: var(--clr5);
+}
+
+.post-content p {
+	letter-spacing: 0.48px;
+}
+
+.post-content p:nth-of-type(1) {
+	margin-top: 3rem;
+}
+
+.post-content p:nth-of-type(2) {
+	margin-top: 1rem;
+}
+
+.post-content a {
+	text-decoration: none;
+	color: var(--clr6);
+	border-radius: 1.5rem;
+	border: 2px solid var(--clr7);
+	padding: 0.75rem 1.5rem;
+	align-self: start;
+	margin-top: auto;
+}
+
+.post-content a .arrow {
+	margin-left: 0.625rem;
+	display: none;
+}
+
+.post-content a:hover {
+	color: var(--clr2);
+	border-color: var(--clr2);
+}
+
+.post-content a:hover .arrow {
+	color: var(--clr2);
+	display: inline-block;
+}
