@@ -1,0 +1,37 @@
+.container .pagination-nav {
+	display: flex;
+	height: 4.6875rem;
+}
+
+.pagination-nav {
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid var(--clr8);
+	border-bottom: 1px solid var(--clr8);
+}
+
+.pagination-nav a {
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	font-weight: 700;
+	color: var(--clr9);
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.pagination-nav .prev img {
+	margin-right: 0.5625rem;
+}
+
+.pagination-nav .next img {
+	margin-left: 0.5625rem;
+}
+
+.left-arrow {
+	margin-left: 1.875rem;
+}
+
+.right-arrow {
+	margin-right: 1.875rem;
+}

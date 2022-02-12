@@ -2,3 +2,8 @@
 	max-width: 980px;
 	margin: 0 auto;
 }
+
+main .container {
+	border-left: 1px solid var(--clr8);
+	border-right: 1px solid var(--clr8);
+}
