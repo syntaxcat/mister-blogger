@@ -7,3 +7,10 @@ main .container {
 	border-left: 1px solid var(--clr8);
 	border-right: 1px solid var(--clr8);
 }
+
+@media screen and (max-width: 576px) {
+	.container {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}

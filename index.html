@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
-
+    <div class="main-screen" onclick="toggleMenu()"></div>
     <header class="main-header">
         <div class="container">
             <div class="logo">Blogin<span class="dot">.</span></div>
@@ -36,6 +36,7 @@
                     </li>
                 </ul>
             </nav>
+            <button class="btn-menu" onclick="toggleMenu()">☰</button>
         </div>
     </header>
 
@@ -130,6 +131,12 @@
             </ul>
         </div>
     </footer>
+
+    <script>
+        function toggleMenu(){
+            document.body.classList.toggle("menu-open");
+        }
+    </script>
     
 </body>
 </html>
